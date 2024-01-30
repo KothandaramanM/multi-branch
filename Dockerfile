@@ -6,7 +6,7 @@ FROM tomcat:8
 # Copy your Java WAR file to the container
 COPY target/newapp.war /usr/local/tomcat/webapps/
 
-# Expose the default Tomcat port
+# Expose the default Tomcat port 
 #EXPOSE 8080
 
 # Start Tomcat when the container launches
